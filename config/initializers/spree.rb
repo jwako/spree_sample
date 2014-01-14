@@ -11,4 +11,7 @@ Spree.config do |config|
   # config.site_name = "Spree Demo Site"
 end
 
-Spree.user_class = "Spree::LegacyUser"
+Spree.user_class = "Spree::User"
+
+SpreeI18n::Config.available_locales = [:en, :ja] # displayed on translation forms
+SpreeI18n::Config.supported_locales = [:en, :ja] # displayed on frontend select box

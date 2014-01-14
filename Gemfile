@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 1.2'
 # gem 'spree', github: 'spree/spree', branch: '2-1-stable'
 gem 'spree', :path => '/Users/jwako/Documents/progs/gems/spree'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-1-stable'
+gem 'spree_i18n', github: 'spree/spree_i18n', branch: '2-1-stable'
+gem 'spree_paypal_express', :github => "radar/better_spree_paypal_express", :branch => "2-1-stable"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

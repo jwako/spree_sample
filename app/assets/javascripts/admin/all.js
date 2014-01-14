@@ -10,3 +10,5 @@
 //= require admin/spree_backend
 
 //= require_tree .
+//= require admin/spree_i18n
+//= require admin/spree_paypal_express
